@@ -18,15 +18,15 @@
 
     public Computer(int storage) {
         this.storage = storage;
-        this.printer = "";
+        this.printer = "hp";
     }
 
     public int getStorage() {
         return this.storage;
     }
 
-    public void addStorage( int extraStorage){
-        this.storage += extraStorage;
+    public int addStorage( int extraStorage){
+        return this.storage += extraStorage;
     }
 
 
